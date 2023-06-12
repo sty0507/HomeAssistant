@@ -10,8 +10,7 @@
         <div class="test">
             <?php
                 if(isset($_GET['state'])){
-                    print("<h1>".$_GET['state'] == "1" ? "ON" : "OFF"."</h1>");
-                    echo "<h1>".$_GET['state'] == "1" ? "ON" : "OFF"."</h1>";
+                    echo "<h1>".($_GET['state'] == "1" ? "ON" : "OFF")."</h1>";
                 }
             ?>
             <button type="submit" name="toggle" id = "onoff-btn" class = "onoff-btn"><img src="./img/onoffbtn.png" alt=""></button>
