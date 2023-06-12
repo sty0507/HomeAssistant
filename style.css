@@ -1,0 +1,66 @@
+nav {
+  /* position: fixed; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: skyblue;
+  padding: 8px 12px;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  margin: auto;
+  padding-left: 0;
+}
+
+.menu li {
+  padding: 8px 30px;
+}
+footer {
+  position: fixed;
+  bottom: 0px;
+  height: 45px;
+  text-align: center;
+  background-color: skyblue;
+  width: 100%;
+}
+
+.test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 65%;
+  width: 100%;
+}
+section {
+  /* position: fixed; */
+  background-color: lightgray;
+  height: 100%;
+  width: 100%;
+}
+
+.onoff-btn {
+  height: 200px;
+  width: 200px;
+  background-color: skyblue;
+  border-radius: 50%;
+}
+.ra {
+  display: flex;
+  justify-content: center;
+  height: 10%;
+  align-items: center;
+}
