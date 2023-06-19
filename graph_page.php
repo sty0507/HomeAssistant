@@ -17,3 +17,6 @@ include ('graph.php');
 
 include('footer.php');
 ?>
+<style>
+<?php include('style.css');?>
+</style>

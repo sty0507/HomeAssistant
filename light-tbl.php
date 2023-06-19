@@ -1,6 +1,6 @@
 <?php
     $conn = mysqli_connect('localhost','root','root','noc_project');
-    $query = "select * from light limit 15";
+    $query = "select * from light order by num desc limit 15";
     
     $result = mysqli_query($conn, $query);
     echo "<h1>조도값</h1>";

@@ -1,6 +1,6 @@
 <?php
     $conn = mysqli_connect('localhost','root','root','noc_project');
-    $query = "select * from humi limit 15";
+    $query = "select * from humi order by num desc limit 15";
     
     $result = mysqli_query($conn, $query);
     echo "<h1>온습도값</h1>";
